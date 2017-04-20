@@ -25,9 +25,13 @@
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
 </head>
-<script>
-  fbq('track', 'InitiateCheckout');
-</script>
+  <script>
+        fbq('track', 'ViewContent', {
+          value: 3.50,
+          currency: 'USD'
+        });
+
+  </script>
 <body>
   <div>
     <h1>Thanks for the purchase</h1>
